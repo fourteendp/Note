@@ -6,7 +6,7 @@
 
 ```shell
 # 克隆
-git submodule add https://github.com/fourteendp/.obsidian.git .obsidian
+git submodule add git@github.com:fourteendp/.obsidian.git .obsidian
 # 更新
 git submodule update --init --recursive
 ```
