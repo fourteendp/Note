@@ -1,5 +1,5 @@
 ---
-title: 每天一句
+title: a word every day
 uid: 1724051354882
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-19 15:09:14
-updateTime: 2024-08-19 15:16:30
+updateTime: 2024-08-19 15:25:25
 ---
 
 > [!note] 我爱你
