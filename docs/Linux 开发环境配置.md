@@ -18,7 +18,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:53
+updateTime: 2024-08-21 14:29:53
 ---
 
 - [[WSL 登录 Root]]

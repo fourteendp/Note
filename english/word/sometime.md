@@ -10,8 +10,8 @@ draft: false
 todo: false
 createTime: 2024-08-16 16:36:42
 updateTime: 2024-08-16 16:36:42
-sr-due: 2024-08-20
-sr-interval: 1
+sr-due: 2024-09-14
+sr-interval: 17
 sr-ease: 230
 ---
 

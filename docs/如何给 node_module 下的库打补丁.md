@@ -1,8 +1,9 @@
 ---
 title: 如何给 node_module 下的库打补丁
 uid: 20240123112807336
-aliases: []
-categories: []
+aliases:
+  - patch-package
+categories: 
 tags:
   - 打补丁
   - 计算机/工程化/npm
@@ -15,7 +16,7 @@ archive: false
 draft: false
 todo: false
 publishUrl:
-  - "https://juejin.cn/post/7209245221887885372"
+  - https://juejin.cn/post/7209245221887885372
 createTime: 2023-05-07 22:01:31
 updateTime: 2024-08-02 13:59:22
 ---

@@ -10,9 +10,9 @@ draft: false
 todo: false
 createTime: 2024-08-14 16:06:08
 updateTime: 2024-08-14 16:06:08
-sr-due: 2024-08-29
-sr-interval: 10
-sr-ease: 250
+sr-due: 2024-10-06
+sr-interval: 39
+sr-ease: 270
 ---
 
 <iframe

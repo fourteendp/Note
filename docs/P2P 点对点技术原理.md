@@ -1,15 +1,15 @@
 ---
-title: 点对点（Peer-to-Peer，简称 P2P）
+title: P2P 点对点技术原理
 uid: 1721632086059
 aliases:
   - 点对点（P2P）
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-07-22 15:08:06
-updateTime: 2024-08-12 16:12:56
+updateTime: 2024-08-21 13:56:46
 ---
 
 点对点（Peer-to-Peer，简称 P2P）技术是一种网络通信架构，它允许网络中的各个节点（Peers）直接进行数据交换和通信，无需通过中央服务器或中介。这种技术在许多应用中得到广泛应用，包括文件共享、即时通讯、分布式计算和区块链等。以下是 P2P 技术的一些关键特点和应用场景：
