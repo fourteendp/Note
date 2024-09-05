@@ -58,4 +58,4 @@ server.defaultResponseHeaders.add('Access-Control-Allow-Credentials', true);
 
 ## 参考
 
- - [[跨域]]
+ - [[前端 - 跨域]]

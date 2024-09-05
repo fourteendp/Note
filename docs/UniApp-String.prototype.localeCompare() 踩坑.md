@@ -19,7 +19,7 @@ updateTime: 2024-08-02 13:59:52
 
 [[String.prototype.localeCompare()]]
 
-- [[一维数组转通讯录树]]
+- [[JavaScript - 一维数组转通讯录树]]
 
 ```js
 ['张三','李四','王五'] => {
@@ -46,7 +46,7 @@ updateTime: 2024-08-02 13:59:52
 
 - APP 端使用 pinyin.js 进行拼音转换，再进行比较
 
-完整代码 [[一维数组转通讯录树]]
+完整代码 [[JavaScript - 一维数组转通讯录树]]
 
 ```js
 // 添加

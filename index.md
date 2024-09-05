@@ -10,13 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-08 06:01:30
-updateTime: 2024-08-15 18:34:10
+updateTime: 2024-09-05 11:04:42
 ---
 
 ![[assets/b13df23e67d85980097259322b67572a_MD5.jpeg]]
-
-## 待办
-
-```dataviewjs
-dv.pages().filter(p => p.todo).map(p => dv.el('li', `[[${p.file.path}|${p.title}]]`));
-```

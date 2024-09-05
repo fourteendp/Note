@@ -22,7 +22,7 @@ Vue 的 `<keep-alive>` 组件是一个内置的抽象组件，它被用来缓存
 - `exclude`：定义一个黑名单，匹配的组件不会被缓存。
 - `max`：定义缓存的组件数量上限，超出这个数量后，最久未使用的组件将被移除，采用 LRU（Least Recently Used）缓存策略。
 
-在 Vue 3 中，`<keep-alive>` 的实现原理涉及到组件的渲染、缓存处理、props 参数的处理以及组件卸载过程。它使用 `Map` 对象来缓存组件的 VNode，并使用 `Set` 对象来记录所有缓存的 key。当组件被缓存时，如果缓存数量超过 `max` 属性定义的数量，就会执行 [[LRU（Least Recently Used，最近最少使用）]] 策略，移除最久未使用的缓存。
+在 Vue 3 中，`<keep-alive>` 的实现原理涉及到组件的渲染、缓存处理、props 参数的处理以及组件卸载过程。它使用 `Map` 对象来缓存组件的 VNode，并使用 `Set` 对象来记录所有缓存的 key。当组件被缓存时，如果缓存数量超过 `max` 属性定义的数量，就会执行 [[数据结构与算法 - LRU（Least Recently Used，最近最少使用）]] 策略，移除最久未使用的缓存。
 
 `<keep-alive>` 组件的生命周期钩子函数在它的实现中扮演了重要角色。在 `created` 钩子中初始化缓存和 key 集合，在 `destroyed` 钩子中清理缓存。`mounted` 钩子则用于监听 `include` 和 `exclude` 的变化，并实时更新缓存。
 
