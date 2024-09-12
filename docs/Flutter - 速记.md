@@ -1,5 +1,5 @@
 ---
-title: Flutter-速记
+title: Flutter - 速记
 uid: 20240123112806916
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-01-23 19:28:06
-updateTime: 2024-08-09 16:42:14
+updateTime: 2024-09-12 08:13:24
 ---
 
 ## 其它

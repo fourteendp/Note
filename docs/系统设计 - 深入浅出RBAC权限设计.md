@@ -1,14 +1,14 @@
 ---
-title: 深入浅出RBAC权限设计
+title: 系统设计 - 深入浅出RBAC权限设计
 uid: 1724397235517
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-23 15:13:55
-updateTime: 2024-08-23 15:14:28
+updateTime: 2024-09-12 08:13:16
 ---
 
 > 权限管理是 B 端中常见的话题，它规定了用户各自的角色和可使用的职能，也对数据的安全提供了保障。本篇文章中作者结合自身经验，从四部分讲述关于权限管理的设计经验与设计方法。

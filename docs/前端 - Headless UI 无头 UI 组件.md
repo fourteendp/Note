@@ -1,5 +1,5 @@
 ---
-title: Headless UI 无头 UI 组件
+title: 前端 - Headless UI 无头 UI 组件
 uid: 1725439585465
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-09-04 16:46:25
-updateTime: 2024-09-04 16:47:44
+updateTime: 2024-09-12 08:13:19
 ---
 
 ## Headless UI

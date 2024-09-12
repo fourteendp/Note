@@ -1,5 +1,5 @@
 ---
-title: "YAGNI 原则 (You Ain't Gonna Need It)"
+title: "设计模式 - YAGNI 原则 (You Ain't Gonna Need It)"
 uid: 20240123112807160
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：You Ain't Gonna Need It，你不会需要它

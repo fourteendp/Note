@@ -1,7 +1,7 @@
 ---
 title: categorise
 uid: 1723622768889
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 16:06:08
-updateTime: 2024-08-14 16:06:08
+updateTime: 2024-09-12 08:13:25
 sr-due: 2024-10-06
 sr-interval: 39
 sr-ease: 270

@@ -1,5 +1,5 @@
 ---
-title: 状态模式 (State)
+title: 设计模式 - 状态模式 (State)
 uid: 20240123112807440
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:19
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：允许一个对象在其内部状态改变时改变它的行为，对象看起来好像修改了它的类

@@ -1,5 +1,5 @@
 ---
-title: JavaScriptr - 版本
+title: JavaScript - 版本
 uid: 20240123112806864
 aliases: []
 categories:
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 08:40:40
+updateTime: 2024-09-12 08:13:23
 ---
 
 ## 浏览器中的 JavaScript

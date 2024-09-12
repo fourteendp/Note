@@ -1,14 +1,14 @@
 ---
 title: Vue2 - 基于单例模式下实现的Vue全局组件
 uid: 1722908561858
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 09:42:41
-updateTime: 2024-08-12 14:29:19
+updateTime: 2024-09-12 08:13:21
 ---
 
 ## 基于 Vue.extend() 构造出 vue 子类

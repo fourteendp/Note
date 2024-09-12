@@ -1,5 +1,5 @@
 ---
-title: 抽象工厂模式 (Abstract Factory)
+title: 设计模式 - 抽象工厂模式 (Abstract Factory)
 uid: 20240123112807370
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 08:58:20
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类

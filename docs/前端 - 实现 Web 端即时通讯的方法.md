@@ -1,5 +1,5 @@
 ---
-title: 实现 Web 端即时通讯的方法
+title: 前端 - 实现 Web 端即时通讯的方法
 uid: 1722908564050
 aliases: []
 categories: 
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 09:42:44
-updateTime: 2024-08-12 16:01:54
+updateTime: 2024-09-12 08:13:19
 ---
 
 1. **WebSockets**:

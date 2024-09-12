@@ -1,18 +1,18 @@
 ---
-title: 事件循环（Event Loop）
+title: 设计模式 - 事件循环（Event Loop）
 uid: 20240123112807180
 aliases: []
 categories: []
 tags:
+  - 编程语言
   - 计算机/技术
   - 计算机/前端/JavaScript
-  - 编程语言
   - 事件循环
 archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:14
 ---
 
 JavaScript 中的事件循环（Event Loop）是实现异步编程的核心机制之一，它是 JavaScript 单线程执行模型的

@@ -1,5 +1,5 @@
 ---
-title: 链模式 (Chain Of Responsibility)
+title: 设计模式 - 链模式 (Chain Of Responsibility)
 uid: 20240123112807530
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：在职责链模式（Chain of Responsibility Pattern）中，很多对象由每一个对象对其下家的引用而接起

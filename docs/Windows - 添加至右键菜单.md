@@ -1,5 +1,5 @@
 ---
-title: Win10-VSCode - 添加至右键菜单
+title: Windows - 添加至右键菜单
 uid: 20240123112809260
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ draft: false
 todo: false
 originalUrl: https://juejin.cn/post/7028823525125259272
 createTime: 2023-05-21 07:30:58
-updateTime: 2024-09-05 10:45:20
+updateTime: 2024-09-12 08:13:20
 ---
 
 最近在使用 `VSCode` 时发现电脑上打开不方便，比如文件夹无法右键用 `VSCode` 打开，非常不方便，于是配置

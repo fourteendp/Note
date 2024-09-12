@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 08:24:44
-updateTime: 2024-08-14 14:13:30
-sr-due: 2024-09-07
-sr-interval: 19
-sr-ease: 290
+updateTime: 2024-09-12 08:13:24
+sr-due: 2024-12-03
+sr-interval: 85
+sr-ease: 310
 ---
 
 <iframe

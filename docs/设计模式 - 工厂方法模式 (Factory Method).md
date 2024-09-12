@@ -1,5 +1,5 @@
 ---
-title: 工厂方法模式 (Factory Method)
+title: 设计模式 - 工厂方法模式 (Factory Method)
 uid: 20240123112807350
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:21
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：定义一个用于创建对象的接口，让子类决定实例化哪一个类，工厂方法使一个类的实例化延迟到其子类

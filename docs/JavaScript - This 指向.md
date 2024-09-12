@@ -1,18 +1,18 @@
 ---
-title: JavaScript This 指向
+title: JavaScript - This 指向
 uid: 20240123112806930
 aliases: []
 categories: []
 tags:
+  - 编程语言
   - 计算机/技术
   - 计算机/前端/JavaScript
-  - 编程语言
   - This
 archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 14:00:42
+updateTime: 2024-09-12 08:13:23
 ---
 
 ## This 指向

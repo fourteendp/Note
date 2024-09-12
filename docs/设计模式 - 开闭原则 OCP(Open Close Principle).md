@@ -1,5 +1,5 @@
 ---
-title: 开闭原则 OCP(Open Close Principle)
+title: 设计模式 - 开闭原则 OCP(Open Close Principle)
 uid: 20240123112807364
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:21
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：一个软件实体如类、模块和函数应该对扩展开放，对修改关闭

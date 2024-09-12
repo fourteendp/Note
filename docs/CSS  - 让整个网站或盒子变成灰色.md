@@ -1,5 +1,5 @@
 ---
-title: 让整个网站或盒子变成灰色
+title: CSS  - 让整个网站或盒子变成灰色
 uid: 20240123112807464
 aliases: []
 categories: []
@@ -12,7 +12,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:24
 ---
 
 ## 用 CSS 滤镜使整站或盒子变成灰色

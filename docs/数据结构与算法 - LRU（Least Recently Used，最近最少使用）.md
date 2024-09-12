@@ -1,5 +1,5 @@
 ---
-title: LRU（Least Recently Used，最近最少使用）
+title: 数据结构与算法 - LRU（Least Recently Used，最近最少使用）
 uid: 1723446416878
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-12 15:06:56
-updateTime: 2024-08-12 15:29:05
+updateTime: 2024-09-12 08:13:17
 ---
 
 LRU（Least Recently Used，最近最少使用）是一种常用的缓存逐出算法，它的核心思想是：如果数据在最近一段时间内没有被访问，那么在将来它被访问的可能性也很小。基于这个思想，LRU 算法会优先淘汰那些最近最少被访问的数据项。

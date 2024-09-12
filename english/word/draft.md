@@ -1,7 +1,7 @@
 ---
 title: draft
 uid: 1723594153124
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 08:09:13
-updateTime: 2024-08-14 08:09:13
-sr-due: 2024-09-09
-sr-interval: 21
-sr-ease: 290
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-12-03
+sr-interval: 85
+sr-ease: 310
 ---
 
 <iframe

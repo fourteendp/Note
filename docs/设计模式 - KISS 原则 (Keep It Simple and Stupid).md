@@ -1,5 +1,5 @@
 ---
-title: KISS 原则 (Keep It Simple and Stupid)
+title: 设计模式 - KISS 原则 (Keep It Simple and Stupid)
 uid: 20240123112806930
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:54
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：Keep It Simple and Stupid，保持简单和愚蠢

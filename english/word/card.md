@@ -1,7 +1,7 @@
 ---
 title: card
 uid: 1725429881549
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-09-04 14:04:41
-updateTime: 2024-09-04 14:04:41
-sr-due: 2024-09-08
-sr-interval: 4
-sr-ease: 270
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-09-27
+sr-interval: 18
+sr-ease: 290
 ---
 
 <iframe

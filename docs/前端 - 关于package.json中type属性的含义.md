@@ -1,5 +1,5 @@
 ---
-title: 关于package.json中type属性的含义
+title: 前端 - 关于package.json中type属性的含义
 uid: 20240123112807170
 aliases: []
 categories: 
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-12 19:52:41
+updateTime: 2024-09-12 08:13:19
 originalUrl: 'https://juejin.cn/post/7032278473389539365'
 ---
 

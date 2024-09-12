@@ -1,14 +1,14 @@
 ---
-title: CRM(客户关系管理 Customer Relationship Management)
+title: 产品 - CRM(客户关系管理 Customer Relationship Management)
 uid: 1722929957466
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 15:39:17
-updateTime: 2024-08-06 15:47:27
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

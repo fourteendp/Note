@@ -1,5 +1,5 @@
 ---
-title: Windows 如何设置 WSL 开机启动并执行脚本以及向 Windows 桌面发送通知
+title: WSL - 如何设置 WSL 开机启动并执行脚本以及向 Windows 桌面发送通知
 uid: 20240123112807160
 aliases: []
 categories: []
@@ -14,7 +14,7 @@ draft: false
 todo: false
 publishUrl: "https://juejin.cn/post/7235177983311642685"
 createTime: 2023-05-21 07:30:58
-updateTime: 2024-08-02 13:59:51
+updateTime: 2024-09-12 08:13:20
 ---
 
 > 环境：WIndows 10 和 WSL1 其它版本也是类似的思路

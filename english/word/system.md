@@ -1,7 +1,7 @@
 ---
 title: system
 uid: 1723607848407
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 11:57:28
-updateTime: 2024-08-14 11:57:28
-sr-due: 2024-09-08
-sr-interval: 20
-sr-ease: 290
+updateTime: 2024-09-12 08:13:24
+sr-due: 2024-12-03
+sr-interval: 85
+sr-ease: 310
 ---
 
 <iframe

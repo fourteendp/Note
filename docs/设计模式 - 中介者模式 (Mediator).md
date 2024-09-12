@@ -1,5 +1,5 @@
 ---
-title: 中介者模式 (Mediator)
+title: 设计模式 - 中介者模式 (Mediator)
 uid: 20240123112807176
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:14
 ---
 
 ## 中介者模式 (Mediator)

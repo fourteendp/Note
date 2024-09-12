@@ -1,5 +1,5 @@
 ---
-title: 接口隔离原则 ISP(Interface Segregation Principle)
+title: 设计模式 - 接口隔离原则 ISP(Interface Segregation Principle)
 uid: 20240123112807428
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:20
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：使用多个专门的接口，而不使用单一的总接口，客户端不应该依赖它不需要的接口

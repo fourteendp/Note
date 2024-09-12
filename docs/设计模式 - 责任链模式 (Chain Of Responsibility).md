@@ -1,5 +1,5 @@
 ---
-title: 责任链模式 (Chain Of Responsibility)
+title: 设计模式 - 责任链模式 (Chain Of Responsibility)
 uid: 20240123112807520
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 ## 责任链模式 (Chain Of Responsibility)

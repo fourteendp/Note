@@ -1,5 +1,5 @@
 ---
-title: 深入剖析HTTP3协议
+title: 网络 - 深入剖析HTTP3协议
 uid: 1724921749615
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-29 16:55:49
-updateTime: 2024-08-29 16:56:24
+updateTime: 2024-09-12 08:13:15
 ---
 
 自 2017 年起 HTTP3 协议已发布了 29 个 Draft，推出在即，Chrome、Nginx 等软件都在跟进实现最新的草案。本文将介绍 HTTP3 协议规范、应用场景及实现原理。

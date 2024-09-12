@@ -1,5 +1,5 @@
 ---
-title: Vue3 生命周期
+title: Vue3 - 生命周期
 uid: 20240123112807096
 aliases: []
 categories: []
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:21
 ---
 
 ## 什么是生命周期

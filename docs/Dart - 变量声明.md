@@ -1,5 +1,5 @@
 ---
-title: Dart 变量声明
+title: Dart - 变量声明
 uid: 1723015784091
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 15:29:44
-updateTime: 2024-08-07 16:02:28
+updateTime: 2024-09-12 08:13:24
 ---
 
 在 Flutter 中，变量声明方式与 Dart 语言的变量声明方式一致。Dart 是一种类型安全的编程语言，这意味着每个变量在声明时都需要指定其类型。

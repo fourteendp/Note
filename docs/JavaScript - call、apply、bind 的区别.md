@@ -1,12 +1,12 @@
 ---
-title: call、apply、bind 的区别
+title: JavaScript - call、apply、bind 的区别
 uid: 20240123112807164
 aliases: []
 categories: []
 tags:
+  - 编程语言
   - 计算机/技术
   - 计算机/前端/JavaScript
-  - 编程语言
   - apply
   - bind
   - call
@@ -14,7 +14,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 14:00:44
+updateTime: 2024-09-12 08:13:23
 ---
 
 - call 和 apply 都是为了改变函数的 this 对象的指向而存在的，都可以利用后续参数传参。

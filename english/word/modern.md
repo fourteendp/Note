@@ -1,7 +1,7 @@
 ---
 title: modern
 uid: 1724050593249
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-19 14:56:33
-updateTime: 2024-08-19 14:56:33
-sr-due: 2024-09-07
-sr-interval: 4
-sr-ease: 210
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-09-12
+sr-interval: 1
+sr-ease: 170
 ---
 
 <iframe

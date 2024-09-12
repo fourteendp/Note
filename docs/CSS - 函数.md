@@ -1,5 +1,5 @@
 ---
-title: CSS 函数
+title: CSS - 函数
 uid: 20240123112806890
 aliases: []
 categories: []
@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 14:00:44
+updateTime: 2024-09-12 08:13:24
 ---
 
 | 函数                        | 描述                                                                | CSS |

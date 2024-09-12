@@ -1,5 +1,5 @@
 ---
-title: 工程化之统一编辑器字符 EditorConfig
+title: 工程化 - 统一编辑器字符 EditorConfig
 uid: 20240123112807360
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-14 18:40:09
-updateTime: 2024-09-05 09:03:15
+updateTime: 2024-09-12 08:13:17
 ---
 
 EditorConfig 是一个用于定义代码格式的文件格式和一组文本编辑器插件。它可以帮助开发人员在不同的编辑器

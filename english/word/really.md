@@ -1,7 +1,7 @@
 ---
 title: really
 uid: 1724051834331
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-19 15:17:14
-updateTime: 2024-08-19 15:17:14
-sr-due: 2024-09-10
-sr-interval: 8
-sr-ease: 210
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-09-13
+sr-interval: 4
+sr-ease: 190
 ---
 
 <iframe

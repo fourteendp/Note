@@ -1,5 +1,5 @@
 ---
-title: 浏览器 URL 字符串长度限制
+title: 浏览器 - URL 字符串长度限制
 uid: 20240123112807440
 aliases: []
 categories: []
@@ -13,7 +13,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:20
+updateTime: 2024-09-12 08:13:17
 ---
 
 HTTP 协议的 RFC 规范中并没有详细的规定 URL 最大字符串长度，然而在浏览器中或服务器中总会存在限制

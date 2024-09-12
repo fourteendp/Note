@@ -1,5 +1,5 @@
 ---
-title: 数据访问模式 (Data Access Object)
+title: 设计模式 - 数据访问模式 (Data Access Object)
 uid: 20240123112807430
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:20
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：数据访问对象模式（Data Access Object Pattern）或 DAO 模式用于把低级的数据访问 API 或操作从高

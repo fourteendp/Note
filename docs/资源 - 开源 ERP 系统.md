@@ -1,7 +1,7 @@
 ---
-title: 开源 ERP 系统
+title: 资源 - 开源 ERP 系统
 uid: 20240123112807364
-aliases: 
+aliases: []
 categories: 
 tags:
   - 管理系统
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-12 15:48:59
+updateTime: 2024-09-12 08:13:14
 ---
 
 - [wimoor-erp](https://github.com/wimoor-erp/)

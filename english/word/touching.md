@@ -1,7 +1,7 @@
 ---
 title: touching
 uid: 1723797278836
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,9 +9,9 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-16 16:34:38
-updateTime: 2024-08-16 16:34:38
-sr-due: 2024-09-07
-sr-interval: 2
+updateTime: 2024-09-12 08:13:24
+sr-due: 2024-09-12
+sr-interval: 1
 sr-ease: 130
 ---
 

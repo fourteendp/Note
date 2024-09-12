@@ -1,5 +1,5 @@
 ---
-title: 设计模式 -柯里化 (Currying) 与偏函数 (Partial Function)
+title: 设计模式 - 柯里化 (Currying) 与偏函数 (Partial Function)
 uid: 20240123112807436
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 09:10:32
+updateTime: 2024-09-12 08:13:14
 ---
 
 **函数柯里化**是把接受多个参数的函数变换成接受一个单一参数（最初函数的第一个参数）的函数，并且返回接

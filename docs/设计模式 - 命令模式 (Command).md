@@ -1,5 +1,5 @@
 ---
-title: 命令模式 (Command)
+title: 设计模式 - 命令模式 (Command)
 uid: 20240123112807324
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:23
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，

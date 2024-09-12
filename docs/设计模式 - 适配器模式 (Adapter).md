@@ -1,5 +1,5 @@
 ---
-title: 适配器模式 (Adapter)
+title: 设计模式 - 适配器模式 (Adapter)
 uid: 20240123112807530
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：将一个类的接口转换成客户希望的另外一个接口，适配器模式使得原本由于接口不兼容而不能一起工作的

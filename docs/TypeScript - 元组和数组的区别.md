@@ -1,19 +1,19 @@
 ---
-title: 元组和数组的区别
+title: TypeScript - 元组和数组的区别
 uid: 20240123112807210
 aliases: []
 categories: []
 tags:
-  - 计算机/技术
-  - 计算机/前端/数组
   - 编程语言
   - 编程语言/TypeScript
+  - 计算机/技术
+  - 计算机/前端/数组
   - 元组
 archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 13:59:49
+updateTime: 2024-09-12 08:13:22
 ---
 
 ## 元组

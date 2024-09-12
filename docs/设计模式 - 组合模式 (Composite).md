@@ -1,5 +1,5 @@
 ---
-title: 组合模式 (Composite)
+title: 设计模式 - 组合模式 (Composite)
 uid: 20240123112807452
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:19
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：将对象组合成树形结构以表示 " 部分 - 整体 " 的层次结构，组合模式使得用户对单个对象和组合对象

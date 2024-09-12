@@ -1,5 +1,5 @@
 ---
-title: Web Components 组件
+title: 前端 - Web Components 组件
 uid: 20240123112807160
 aliases: []
 categories: []
@@ -12,7 +12,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-12 19:47:49
+updateTime: 2024-09-12 08:13:19
 ---
 
 Web Components 允许开发者创建可重用的自定义元素，增强了 HTML 的功能。一个简单的 Web Components 示例可以通过以下步骤实现：

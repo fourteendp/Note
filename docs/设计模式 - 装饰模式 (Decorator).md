@@ -1,5 +1,5 @@
 ---
-title: 装饰模式 (Decorator)
+title: 设计模式 - 装饰模式 (Decorator)
 uid: 20240123112807456
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：动态地给一个对象添加一些额外的职责，就增加功能来说，装饰模式比生成子类更为灵活

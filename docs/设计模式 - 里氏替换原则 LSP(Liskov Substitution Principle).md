@@ -1,5 +1,5 @@
 ---
-title: 里氏替换原则 LSP(Liskov Substitution Principle)
+title: 设计模式 - 里氏替换原则 LSP(Liskov Substitution Principle)
 uid: 20240123112807530
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：所有引用基类的地方必须能透明地使用其子类的对象

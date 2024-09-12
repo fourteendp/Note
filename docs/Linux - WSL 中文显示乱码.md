@@ -1,5 +1,5 @@
 ---
-title: Linux -WSL 中文显示乱码
+title: Linux - WSL 中文显示乱码
 uid: 20240123112809268
 aliases: []
 categories: 
@@ -9,7 +9,7 @@ draft: false
 todo: false
 originalUrl: https://blog.csdn.net/weixin_41714373/article/details/119519589
 createTime: 2023-12-31 08:22:19
-updateTime: 2024-09-05 08:39:10
+updateTime: 2024-09-12 08:13:23
 ---
 
 - 生成 locale 配置文件

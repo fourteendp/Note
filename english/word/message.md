@@ -1,18 +1,19 @@
 ---
 title: message
 uid: 1725429954276
-aliases:
+aliases: []
 categories: []
 tags:
+  - linker-exclude
   - review
 archive: false
 draft: false
 todo: false
 createTime: 2024-09-04 14:05:54
-updateTime: 2024-09-04 14:05:54
-sr-due: 2024-09-08
-sr-interval: 4
-sr-ease: 270
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-09-27
+sr-interval: 18
+sr-ease: 290
 ---
 
 <iframe

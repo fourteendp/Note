@@ -1,14 +1,14 @@
 ---
-title: APS(高级计划与排程 Advanced Planning and Scheduling)
+title: 产品 - APS(高级计划与排程 Advanced Planning and Scheduling)
 uid: 1722994913614
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 09:41:53
-updateTime: 2024-08-07 09:41:55
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

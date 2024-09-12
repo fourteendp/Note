@@ -1,5 +1,5 @@
 ---
-title: 策略模式 (Strategy)
+title: 设计模式 - 策略模式 (Strategy)
 uid: 20240123112807450
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 08:58:14
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：定义一系列的算法，把它们一个个封装起来，并且使它们可以相互替换

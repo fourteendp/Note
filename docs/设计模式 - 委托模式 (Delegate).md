@@ -1,5 +1,5 @@
 ---
-title: 委托模式 (Delegate)
+title: 设计模式 - 委托模式 (Delegate)
 uid: 20240123112807350
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:22
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：委托模式（Delegation Pattern）又叫代理模式，是一种对象行为型模式，委托模式的核心是将一个类的

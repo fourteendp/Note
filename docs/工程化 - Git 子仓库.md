@@ -1,5 +1,5 @@
 ---
-title: Git 子仓库
+title: 工程化 - Git 子仓库
 uid: 20240123112806924
 aliases: []
 categories: []
@@ -12,7 +12,7 @@ todo: false
 publishUrl:
   - "https://juejin.cn/post/7230656452497965117"
 createTime: 2023-05-14 18:40:09
-updateTime: 2024-08-15 18:42:23
+updateTime: 2024-09-12 08:13:17
 ---
 
 > [!note]

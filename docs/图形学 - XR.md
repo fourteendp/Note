@@ -1,5 +1,5 @@
 ---
-title: XR
+title: 图形学 - XR
 uid: 20240123112807160
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 10:15:05
+updateTime: 2024-09-12 08:13:18
 ---
 
 XR 是 " 扩展范围（extended-range）" 的缩写。未来，人类的交互方式将由 2D 交互向更具效率的 3D 交互转

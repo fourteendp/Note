@@ -1,5 +1,5 @@
 ---
-title: any 和 unknown 的区别
+title: TypeScript - any 和 unknown 的区别
 uid: 20240123112807160
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 14:00:44
+updateTime: 2024-09-12 08:13:22
 ---
 
 - any 可以赋值给任何类型，unknown 只能赋值给 any 和 unknown

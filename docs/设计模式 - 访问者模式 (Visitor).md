@@ -1,5 +1,5 @@
 ---
-title: 访问者模式 (Visitor)
+title: 设计模式 - 访问者模式 (Visitor)
 uid: 20240123112807516
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：封装一些作用于某种数据结构中的各元素的操作，它可以在不改变数据结构的前提下定义作用于这些元素

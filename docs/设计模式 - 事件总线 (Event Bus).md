@@ -1,5 +1,5 @@
 ---
-title: 事件总线 (Event Bus)
+title: 设计模式 - 事件总线 (Event Bus)
 uid: 20240123112807180
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:14
 ---
 
 事件总线 (Event Bus) 是基于 [[设计模式 - 观察者模式 (Observer)]] 的一种设计模式，它是一种消息机制，用于在不同的

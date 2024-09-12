@@ -1,14 +1,14 @@
 ---
-title: JIT(即时生产 Just In Time)
+title: 产品 - JIT(即时生产 Just In Time)
 uid: 1722995024880
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 09:43:44
-updateTime: 2024-08-07 09:43:46
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-title: ES6编译未将所有API编译至ES5
+title: JavaScript - ES6编译未将所有API编译至ES5
 uid: 1721632808434
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-07-22 15:20:08
-updateTime: 2024-08-02 14:00:43
+updateTime: 2024-09-12 08:13:23
 ---
 
 原因出在于 [Babel](https://www.babeljs.cn/) 无法将所有 API 完全编译至 ES5

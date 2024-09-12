@@ -1,5 +1,5 @@
 ---
-title: 建造者模式 (Builder)
+title: 设计模式 - 建造者模式 (Builder)
 uid: 20240123112807360
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:21
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示

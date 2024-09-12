@@ -1,5 +1,5 @@
 ---
-title: Linux 开发环境配置
+title: Linux - 开发环境配置
 uid: 20240123112806940
 aliases: []
 categories: []
@@ -18,7 +18,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-21 14:29:53
+updateTime: 2024-09-12 08:13:22
 ---
 
 - [[WSL - 登录 Root]]
@@ -26,5 +26,5 @@ updateTime: 2024-08-21 14:29:53
 - [[Linux - 系统镜像源和更新]]
 - [[Linux - Debian 中文环境]]
 - [[Linux - 常用下载器]]
-- [[Neovim 的安装和配置]]
+- [[工具 - Neovim 的安装和配置]]
 - [[Linux - 常用工具]]

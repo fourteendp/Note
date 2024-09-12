@@ -1,19 +1,19 @@
 ---
-title: interface 和 type 的区别
+title: TypeScript - interface 和 type 的区别
 uid: 20240123112807170
 aliases: []
 categories: []
 tags:
-  - 计算机/技术
   - 编程语言
   - 编程语言/TypeScript
+  - 计算机/技术
   - interface
   - type
 archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 14:00:42
+updateTime: 2024-09-12 08:13:22
 ---
 
 ## 不同点

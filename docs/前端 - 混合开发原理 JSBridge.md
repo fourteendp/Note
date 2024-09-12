@@ -1,14 +1,14 @@
 ---
-title: 混合开发原理 JSBridge
+title: 前端 - 混合开发原理 JSBridge
 uid: 1722923335748
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 13:48:55
-updateTime: 2024-08-12 14:20:57
+updateTime: 2024-09-12 08:13:18
 ---
 
 混合开发是一种开发方法，它结合了原生应用开发和 Web 前端开发的优势，允许开发者使用 HTML、CSS 和 JavaScript 来创建应用程序，同时又能访问设备的原生功能。JSBridge 是混合开发中的一个重要组件，它是一种通信机制，允许 Web 页面与原生应用程序之间进行交互。

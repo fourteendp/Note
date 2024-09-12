@@ -1,5 +1,5 @@
 ---
-title: 空对象模式 (Null Object)
+title: 设计模式 - 空对象模式 (Null Object)
 uid: 20240123112807450
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:19
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：在空对象模式（Null Object Pattern）中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查

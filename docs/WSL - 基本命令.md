@@ -1,5 +1,5 @@
 ---
-title: WSL 基本命令
+title: WSL - 基本命令
 uid: 20240123112807156
 aliases: []
 categories: []
@@ -12,7 +12,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:51
+updateTime: 2024-09-12 08:13:20
 ---
 
 以下 WSL 命令以 PowerShell 或 Windows 命令提示符支持的格式列出。若要通过 Bash/Linux 发行版命令行运行

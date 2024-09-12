@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-13 09:37:45
+updateTime: 2024-09-12 08:13:22
 ---
 
 TypeScript 是由微软开发的开源编程语言。它是 JavaScript 的一个超集，主要提供了类型系统和对 ES6 的支
@@ -33,4 +33,4 @@ TypeScript 是由微软开发的开源编程语言。它是 JavaScript 的一个
 
 ## 参考
 
-- [[弱类型、强类型、动态类型、静态类型语言]]
+- [[编程语言 - 弱类型、强类型、动态类型、静态类型语言]]

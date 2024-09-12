@@ -1,7 +1,7 @@
 ---
 title: data
 uid: 1723594409663
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 08:13:29
-updateTime: 2024-08-14 08:13:29
-sr-due: 2024-09-08
-sr-interval: 20
-sr-ease: 290
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-12-01
+sr-interval: 83
+sr-ease: 310
 ---
 
 <iframe

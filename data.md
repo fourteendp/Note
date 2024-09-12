@@ -1,5 +1,5 @@
 ---
-title: todo
+title: data
 uid: 1725505377167
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-09-05 11:02:57
-updateTime: 2024-09-05 11:03:20
+updateTime: 2024-09-09 08:21:04
 ---
 
 ```dataviewjs

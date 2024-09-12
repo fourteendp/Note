@@ -1,5 +1,5 @@
 ---
-title: 非 GoF 设计模式
+title: 设计模式 - 非 GoF 设计模式
 uid: 20240123112807532
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:18
+updateTime: 2024-09-12 08:13:14
 ---
 
 对软件开发中一些特殊情况的解决方案,它们并不属于 GoF23 种设计模式,但是也是非常重要的,也是我们在软件开

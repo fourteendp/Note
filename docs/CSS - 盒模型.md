@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-12 12:00:58
+updateTime: 2024-09-12 08:13:24
 ---
 
 盒模型是 CSS 中的一个概念，用于描述 HTML 元素的布局。盒模型由内容区域、内边距、边框和外边距组成。

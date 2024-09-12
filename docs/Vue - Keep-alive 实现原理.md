@@ -1,7 +1,7 @@
 ---
 title: Vue - Keep-alive 实现原理
 uid: 20240123112807096
-aliases:
+aliases: []
 categories: []
 tags:
   - 计算机/前端/源码
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-12 15:23:40
+updateTime: 2024-09-12 08:13:22
 ---
 
 Vue 的 `<keep-alive>` 组件是一个内置的抽象组件，它被用来缓存不活动的组件实例，避免它们被销毁，从而提高应用的性能。它主要应用于动态组件和与 Vue Router 配合使用的场景中，以保留用户操作状态或避免重复渲染组件。

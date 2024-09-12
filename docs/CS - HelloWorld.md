@@ -1,5 +1,5 @@
 ---
-title: HelloWorld
+title: CS - HelloWorld
 uid: 20240123112806930
 aliases: []
 categories: []
@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-08 01:04:27
-updateTime: 2024-08-02 14:00:42
+updateTime: 2024-09-12 08:13:24
 ---
 
 ## C# Hello World

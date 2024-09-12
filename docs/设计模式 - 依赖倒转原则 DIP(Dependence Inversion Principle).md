@@ -1,5 +1,5 @@
 ---
-title: 依赖倒转原则 DIP(Dependence Inversion Principle)
+title: 设计模式 - 依赖倒转原则 DIP(Dependence Inversion Principle)
 uid: 20240123112807210
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:49
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：高层模块不应该依赖底层模块，两者都应该依赖其抽象；抽象不应该依赖细节，细节应该依赖抽象

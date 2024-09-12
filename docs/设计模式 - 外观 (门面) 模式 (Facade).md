@@ -1,5 +1,5 @@
 ---
-title: 外观 (门面) 模式 (Facade)
+title: 设计模式 - 外观 (门面) 模式 (Facade)
 uid: 20240123112807336
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:23
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加

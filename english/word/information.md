@@ -1,7 +1,7 @@
 ---
 title: information
 uid: 1725429922562
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,10 +9,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-09-04 14:05:22
-updateTime: 2024-09-04 14:05:22
-sr-due: 2024-09-08
-sr-interval: 4
-sr-ease: 270
+updateTime: 2024-09-12 08:13:25
+sr-due: 2024-09-28
+sr-interval: 19
+sr-ease: 290
 ---
 
 <iframe

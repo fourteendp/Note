@@ -1,21 +1,21 @@
 ---
-title: 使用 vite 搭建 vue3 项目
+title: Vue3 - 使用 vite 搭建 vue3 项目
 uid: 20240123112807210
 aliases: []
 categories: []
 tags:
+  - 编程语言/TypeScript
   - 计算机/前端/工程化
   - 计算机/前端/JavaScript
   - 计算机/前端/Vue
   - 计算机/前端/Vue3
-  - 编程语言/TypeScript
 archive: false
 draft: false
 todo: false
 publishUrl:
   - "https://juejin.cn/post/7231016319863521337"
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:21
 ---
 
 使用 Vite 创建项目，项目并不像 Vue CLI 创建的项目那样，可以选择 Router、Vuex 等，而是直接创建一个空

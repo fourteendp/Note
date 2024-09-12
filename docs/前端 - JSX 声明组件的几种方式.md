@@ -1,5 +1,5 @@
 ---
-title: JSX 声明组件的几种方式
+title: 前端 - JSX 声明组件的几种方式
 uid: 20240123112806930
 aliases: []
 categories: []
@@ -13,7 +13,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:54
+updateTime: 2024-09-12 08:13:19
 ---
 
 ## `defineComponent` 声明组件

@@ -1,5 +1,5 @@
 ---
-title: 享元模式 (Flyweight)
+title: 设计模式 - 享元模式 (Flyweight)
 uid: 20240123112807184
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:14
 ---
 
 - 定义：运用共享技术有效地支持大量细粒度的对象

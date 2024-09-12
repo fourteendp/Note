@@ -1,14 +1,14 @@
 ---
-title: 生成SSH Key
+title: 命令 - 生成SSH Key
 uid: 1722580246080
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-02 14:30:46
-updateTime: 2024-08-02 14:35:16
+updateTime: 2024-09-12 08:13:18
 ---
 
 粘贴以下文本，将示例中使用的电子邮件替换为 GitHub 电子邮件地址。

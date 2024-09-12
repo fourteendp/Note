@@ -1,5 +1,5 @@
 ---
-title: HTTP、HTTPS和HTTP2
+title: 网络 - HTTP、HTTPS和HTTP2
 uid: 1724920661889
 aliases: []
 categories:
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-29 16:37:41
-updateTime: 2024-08-29 16:38:34
+updateTime: 2024-09-12 08:13:16
 ---
 
 ## HTTP 概述

@@ -1,5 +1,5 @@
 ---
-title: flexible.js 移动端自适应方案
+title: 前端 - flexible.js 移动端自适应方案
 uid: 1722908559116
 aliases: []
 categories: 
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 09:42:39
-updateTime: 2024-08-12 17:27:02
+updateTime: 2024-09-12 08:13:19
 ---
 
 flexible.js 是由手淘团队开发的一种移动端自适应方案，其核心原理是通过设置不同的 `font-size` 值给 `html` 根节点，利用 `rem` 单位来实现不同屏幕下的适配 。具体来说，flexible.js 会根据设备的宽度动态计算并设置 `html` 根标签的 `font-size`，而页面元素则使用 `rem` 单位来设置宽、高和相对位置，以此达到适配不同设备屏幕的目的 。

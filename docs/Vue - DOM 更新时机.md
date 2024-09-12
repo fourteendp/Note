@@ -1,5 +1,5 @@
 ---
-title: DOM 更新时机
+title: Vue - DOM 更新时机
 uid: 20240123112806910
 aliases: []
 categories: []
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 14:00:43
+updateTime: 2024-09-12 08:13:22
 ---
 
 当你更改响应式状态后，DOM 会自动更新。然而，你得注意 DOM 的更新并不是同步的。相反，Vue 将缓冲它们直

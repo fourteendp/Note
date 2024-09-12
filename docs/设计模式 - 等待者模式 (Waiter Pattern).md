@@ -1,5 +1,5 @@
 ---
-title: 等待者模式 (Waiter Pattern)
+title: 设计模式 - 等待者模式 (Waiter Pattern)
 uid: 20240123112807450
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-09-05 08:59:43
+updateTime: 2024-09-12 08:13:14
 ---
 
 ## 等待者模式 (Waiter Pattern)

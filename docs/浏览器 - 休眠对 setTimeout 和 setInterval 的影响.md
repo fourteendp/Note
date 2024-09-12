@@ -1,5 +1,5 @@
 ---
-title: 浏览器休眠对 setTimeout 和 setInterval 的影响
+title: 浏览器 - 休眠对 setTimeout 和 setInterval 的影响
 uid: 20240123112807440
 aliases: []
 categories: []
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-06 10:55:29
+updateTime: 2024-09-12 08:13:17
 ---
 
 ## 参考

@@ -1,5 +1,5 @@
 ---
-title: 单行、多行溢出省略号
+title: CSS - 单行、多行溢出省略号
 uid: 20240123112807316
 aliases: []
 categories: []
@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:24
+updateTime: 2024-09-12 08:13:24
 ---
 
 ## 使用 CSS 实现

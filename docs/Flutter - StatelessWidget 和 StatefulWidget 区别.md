@@ -1,5 +1,5 @@
 ---
-title: Flutter-StatelessWidget 和 StatefulWidget 区别
+title: Flutter - StatelessWidget 和 StatefulWidget 区别
 uid: 1723015489164
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 15:24:49
-updateTime: 2024-08-09 08:05:21
+updateTime: 2024-09-12 08:13:24
 ---
 
 ## StatelessWidget

@@ -8,12 +8,12 @@ aliases:
   - ESM
   - MJS
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-04-17 09:55:17
-updateTime: 2024-09-05 09:49:38
+updateTime: 2024-09-12 08:13:19
 ---
 
 在 JavaScript 中，MJS 和 CJS 分别指的是两种不同的模块系统：

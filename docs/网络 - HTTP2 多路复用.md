@@ -1,5 +1,5 @@
 ---
-title: HTTP2 多路复用
+title: 网络 - HTTP2 多路复用
 uid: 1724921540507
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-29 16:52:20
-updateTime: 2024-08-29 16:52:22
+updateTime: 2024-09-12 08:13:16
 ---
 
 Http 系列 (二) Http2 中的多路复用

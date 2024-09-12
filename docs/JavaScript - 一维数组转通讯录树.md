@@ -1,5 +1,5 @@
 ---
-title: 一维数组转通讯录树
+title: JavaScript - 一维数组转通讯录树
 uid: 20240123112807176
 aliases:
   - null
@@ -12,7 +12,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:50
+updateTime: 2024-09-12 08:13:23
 ---
 
 ```javascript

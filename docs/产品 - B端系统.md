@@ -1,5 +1,5 @@
 ---
-title: B端系统
+title: 产品 - B端系统
 uid: 10133099162635682
 aliases: []
 categories: []
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-04-17 09:55:17
-updateTime: 2024-08-07 10:24:41
+updateTime: 2024-09-12 08:13:20
 ---
 
 `toB` 是指面向企业的服务，即 `Business to Business`，与 `toC` 相对应，`toC` 是指面向消费者的服务，即
@@ -34,20 +34,20 @@ updateTime: 2024-08-07 10:24:41
 
 - [[产品 - ERP(企业资源计划 Enterprise Resource Planning)]]
 - [[产品 - CRM(客户关系管理 Customer Relationship Management)]]
-- [[SCM(供应链管理 Supply Chain Management)]]
-- [[MES(制造执行 Manufacturing Execution)]]
+- [[产品 - SCM(供应链管理 Supply Chain Management)]]
+- [[产品 - MES(制造执行 Manufacturing Execution)]]
 - [[产品 - WMS(仓库管理 Warehouse Management)]]
-- [[PLM(产品生命周期管理 Product Lifecycle Management)]]
-- [[SRM(供应商关系管理 Supplier Relationship Management)]]
-- [[OMS(订单管理 Order Management)]]
-- [[TMS(运输管理 Transportation Management)]]
-- [[OA(办公自动化 Office Automation)]]
-- [[QMS(质量管理系统 Quality Management System)]]
-- [[MRP(物料需求计划 Material Requirements Planning)]]
-- [[MPS(主生产计划 Master Production Schedule)]]
+- [[产品 - PLM(产品生命周期管理 Product Lifecycle Management)]]
+- [[产品 - SRM(供应商关系管理 Supplier Relationship Management)]]
+- [[产品 - OMS(订单管理 Order Management)]]
+- [[产品 - TMS(运输管理 Transportation Management)]]
+- [[产品 - OA(办公自动化 Office Automation)]]
+- [[产品 - QMS(质量管理系统 Quality Management System)]]
+- [[产品 - MRP(物料需求计划 Material Requirements Planning)]]
+- [[产品 - MPS(主生产计划 Master Production Schedule)]]
 - [[产品 - BOM(物料清单 Bill of Materials)]]
 - [[产品 - JIT(即时生产 Just In Time)]]
-- [[VMI(供应商管理库存 Vendor Managed Inventory)]]
+- [[产品 - VMI(供应商管理库存 Vendor Managed Inventory)]]
 - [[产品 - APS(高级计划与排程 Advanced Planning and Scheduling)]]
 
 ## 参考

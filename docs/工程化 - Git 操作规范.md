@@ -1,5 +1,5 @@
 ---
-title: Git 操作规范
+title: 工程化 - Git 操作规范
 uid: 20240123112806924
 aliases: []
 categories: []
@@ -10,7 +10,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-01-23 19:28:06
-updateTime: 2024-08-02 14:00:42
+updateTime: 2024-09-12 08:13:17
 ---
 
 ## 简介

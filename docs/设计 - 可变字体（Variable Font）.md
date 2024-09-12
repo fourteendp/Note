@@ -1,14 +1,14 @@
 ---
-title: 可变字体（Variable Font）
+title: 设计 - 可变字体（Variable Font）
 uid: 1722908574712
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 09:42:54
-updateTime: 2024-08-12 14:52:35
+updateTime: 2024-09-12 08:13:15
 originalUrl: https://www.jianshu.com/p/660e7ef0fb5e
 ---
 

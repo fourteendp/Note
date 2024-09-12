@@ -1,19 +1,19 @@
 ---
-title: 接口和抽象类
+title: TypeScript - 接口和抽象类
 uid: 20240123112807372
 aliases: []
 categories: []
 tags:
-  - 抽象类
-  - 计算机/技术
   - 编程语言
   - 编程语言/TypeScript
+  - 抽象类
+  - 计算机/技术
   - 接口
 archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:32
-updateTime: 2024-08-02 13:59:20
+updateTime: 2024-09-12 08:13:22
 ---
 
 ## 接口和抽象类的区别

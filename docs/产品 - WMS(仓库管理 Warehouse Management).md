@@ -1,14 +1,14 @@
 ---
-title: WMS(仓库管理 Warehouse Management)
+title: 产品 - WMS(仓库管理 Warehouse Management)
 uid: 1722929704997
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 15:35:04
-updateTime: 2024-08-06 15:43:56
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

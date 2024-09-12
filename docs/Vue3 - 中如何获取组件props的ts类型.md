@@ -1,5 +1,5 @@
 ---
-title: vue3中如何获取组件props的ts类型
+title: Vue3 - 中如何获取组件props的ts类型
 uid: 1722318724834
 aliases: []
 categories: []
@@ -8,7 +8,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-07-30 13:52:04
-updateTime: 2024-08-02 13:59:51
+updateTime: 2024-09-12 08:13:21
 ---
 
 ```javascript

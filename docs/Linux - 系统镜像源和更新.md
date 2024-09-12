@@ -1,5 +1,5 @@
 ---
-title: Linux 系统镜像源和更新
+title: Linux - 系统镜像源和更新
 uid: 20240123112806944
 aliases: []
 categories: []
@@ -11,7 +11,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-02 13:59:53
+updateTime: 2024-09-12 08:13:22
 ---
 
 ## 教程

@@ -1,7 +1,7 @@
 ---
 title: cup
 uid: 1724051241835
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-19 15:07:21
-updateTime: 2024-08-19 15:07:21
+updateTime: 2024-09-12 08:13:25
 sr-due: 2024-09-26
 sr-interval: 28
 sr-ease: 270

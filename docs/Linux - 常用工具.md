@@ -1,5 +1,5 @@
 ---
-title: Linux 常用工具
+title: Linux - 常用工具
 uid: 20240123112806940
 aliases: []
 categories: []
@@ -10,16 +10,16 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-07 22:01:31
-updateTime: 2024-08-06 13:39:04
+updateTime: 2024-09-12 08:13:22
 ---
 
 - Vim: `apt install vim`
-- [[Neovim 的安装和配置]]
+- [[工具 - Neovim 的安装和配置]]
 - Git: `apt install git`
 - Wget: `apt install wget`
 - Curl: `apt install curl`
 - Axel: `apt install axel`
-- [[nodejs 版本管理工具 volta]]
+- [[Nodejs - 版本管理工具 volta]]
 - [[Linux - 安装命令行工具 Oh My Zsh]]
 - [ZeroTier – Global Area Networking](https://www.zerotier.com/)
 - [[WSL - SSH 远程连接]]

@@ -1,5 +1,5 @@
 ---
-title: WebRTC（Web Real-Time Communications）简介
+title: 网络 - WebRTC（Web Real-Time Communications）简介
 uid: 1722837151790
 aliases: []
 categories: 
@@ -8,10 +8,10 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-05 13:52:31
-updateTime: 2024-08-12 16:27:29
+updateTime: 2024-09-12 08:13:15
 ---
 
-WebRTC（Web Real-Time Communications）是一种技术，它允许在浏览器中实现音视频通话和数据共享，无需安装任何插件或第三方软件。它支持 [[P2P 点对点技术原理|点对点（P2P）]] 连接，可以减少延迟并提高效率，适用于视频会议、在线教育、远程医疗等场景 。
+WebRTC（Web Real-Time Communications）是一种技术，它允许在浏览器中实现音视频通话和数据共享，无需安装任何插件或第三方软件。它支持 [[网络 - P2P 点对点技术原理|点对点（P2P）]] 连接，可以减少延迟并提高效率，适用于视频会议、在线教育、远程医疗等场景 。
 
 实现 WebRTC 应用时，你需要关注几个关键概念和技术：
 

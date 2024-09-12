@@ -1,14 +1,14 @@
 ---
-title: BOM(物料清单 Bill of Materials)
+title: 产品 - BOM(物料清单 Bill of Materials)
 uid: 1722995011988
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 09:43:31
-updateTime: 2024-08-07 09:43:33
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

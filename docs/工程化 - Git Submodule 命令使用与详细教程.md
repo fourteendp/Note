@@ -1,5 +1,5 @@
 ---
-title: Git Submodule 命令使用与详细教程
+title: 工程化 - Git Submodule 命令使用与详细教程
 uid: 20240203222235210
 aliases: []
 categories: []
@@ -11,7 +11,7 @@ draft: false
 todo: false
 originalUrl: https://juejin.cn/post/6948251963133788196
 createTime: 2024-02-04 06:22:35
-updateTime: 2024-08-15 18:44:00
+updateTime: 2024-09-12 08:13:17
 ---
 
 欢迎任何形式的转载，转载请保留原文链

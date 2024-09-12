@@ -1,5 +1,5 @@
 ---
-title: 工程化之 GIt 提交自动转换行尾字符 GitAttributes
+title: 工程化 - GIt 提交自动转换行尾字符 GitAttributes
 uid: 20240123112807356
 aliases: []
 categories: []
@@ -13,7 +13,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2023-05-14 18:40:09
-updateTime: 2024-09-05 09:03:06
+updateTime: 2024-09-12 08:13:17
 ---
 
 `.gitattributes` 文件允许您指定文件和路径属性，这些属性应由 git 在执行 git 操作（如 git commit 等）

@@ -1,14 +1,14 @@
 ---
-title: ERP(企业资源计划 Enterprise Resource Planning)
+title: 产品 - ERP(企业资源计划 Enterprise Resource Planning)
 uid: 1722929986792
-aliases: 
+aliases: []
 categories: 
-tags: 
+tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-06 15:39:46
-updateTime: 2024-08-06 15:42:45
+updateTime: 2024-09-12 08:13:20
 ---
 
 > [!NOTE]

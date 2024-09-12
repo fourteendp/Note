@@ -1,7 +1,7 @@
 ---
 title: my
 uid: 1723594005028
-aliases:
+aliases: []
 categories: []
 tags:
   - review
@@ -9,7 +9,7 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-14 08:06:45
-updateTime: 2024-08-14 08:06:45
+updateTime: 2024-09-12 08:13:25
 sr-due: 2024-11-19
 sr-interval: 75
 sr-ease: 310
