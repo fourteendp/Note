@@ -2,13 +2,14 @@
 title: 产品 - VMI(供应商管理库存 Vendor Managed Inventory)
 uid: 1722995040135
 aliases: []
-categories: 
+categories:
+  - 产品
 tags: []
 archive: false
 draft: false
 todo: false
 createTime: 2024-08-07 09:44:00
-updateTime: 2024-09-12 08:13:20
+updateTime: 2024-09-14 13:55:43
 ---
 
 > [!NOTE]
