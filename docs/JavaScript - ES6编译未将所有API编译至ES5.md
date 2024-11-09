@@ -8,13 +8,13 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-07-22 15:20:08
-updateTime: 2024-09-12 08:13:23
+updateTime: 2024-10-29 10:47:08
 ---
 
 原因出在于 [Babel](https://www.babeljs.cn/) 无法将所有 API 完全编译至 ES5
 
 1. [ECMAScript](https://262.ecma-international.org/) 最新标准 [Babel](https://www.babeljs.cn/) 未及时进行支持或未更新，等待支持或更新
-2. API 不支持编译成 ES5，比如 [[Vue3]] 中的 [Proxy](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+2. API 不支持编译成 ES5，比如 Vue3 中的 [Proxy](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
 
 ES5 可以实现但未支持的 API 可以手写实现如 [Array.prototype.find()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 

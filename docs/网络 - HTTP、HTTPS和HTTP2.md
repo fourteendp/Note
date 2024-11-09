@@ -9,20 +9,18 @@ archive: false
 draft: false
 todo: false
 createTime: 2024-08-29 16:37:41
-updateTime: 2024-09-12 08:13:16
+updateTime: 2024-10-29 10:45:17
 ---
 
 ## HTTP 概述
 
-HTTP 超文本传输协议是位于 TCP/IP 体系结构中的应用层协议，它是万维网的数据通信的基础。
+HTTP 超文本传输​​协议是位于 TCP/IP 体系结构中的应用层协议，它是万维网的数据通信的基础。
 
 当我们访问一个网站时，需要通过统一资源定位符 URL 来定位 [服务器](https://cloud.tencent.com/act/pro/promotion-cvm?from_column=20065&from=20065) 并获取资源。
 
 一个 URL 的一般形式通常如上所示（`http://test.com/index.html` ），现在最常用的协议就是 HTTP，HTTP 的默认端口是 80，通常可以省略。
 
-![[assets/8d6739350d66ae70ca5a641754ca54a2_MD5.png]]
-
-在这里插入图片描述
+![[assets/f320d2c033ae10946c71622b09fd80a1_MD5.png]]
 
 ## HTTP/1.1
 
@@ -32,7 +30,7 @@ HTTP/1.1 是目前使用最广泛的版本，一般没有特别标明版本都�
 
 我们来看一下在浏览器输入 URL 后获取 HTML 页面的过程。
 
-1. 先通过 [DNS](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%259F%259F%25E5%2590%258D%25E7%25B3%25BB%25E7%25BB%259F%25EF%25BC%2588%25E6%259C%258D%25E5%258A%25A1%25EF%25BC%2589%25E5%258D%258F%25E8%25AE%25AE%2F15134609%3Ffromtitle%3Ddns%26fromid%3D427444&source=article&objectId=1707472) 查询将 [域名](https://cloud.tencent.com/act/pro/domain-sales?from_column=20065&from=20065) 转换为 IP 地址。即将 `test.com` 转换为 `221.239.100.30` 这一过程。
+1. 先通过 [DNS](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%259F%259F%25E5%2590%258D%25E7%25B3%25BB%25E7%25BB%259F%25EF%25BC%2588%25E6%259C%258D%25E5%258A%25A1%25EF%25BC%2589%25E5%258D%258F%25E8%25AE%25AE%2F15134609%3Ffromtitle%3Ddns%26fromid%3D427444&objectId=1707472&objectType=1) 查询将 [域名](https://cloud.tencent.com/act/pro/domain-sales?from_column=20065&from=20065) 转换为 IP 地址。即将 `test.com` 转换为 `221.239.100.30` 这一过程。
 2. 通过三次握手（详情见文末）建立 TCP 连接。
 3. 发起 HTTP 请求。
 4. 目标服务器接收到 HTTP 请求并处理。
@@ -41,9 +39,7 @@ HTTP/1.1 是目前使用最广泛的版本，一般没有特别标明版本都�
 
 下图中的 RTT 为往返时延。
 
-![[assets/b443da7c1b0ee240bc71d25b7ec1dacf_MD5.png]]
-
-在这里插入图片描述
+![[assets/81ab9600bc5a7487aa69e2f4d1560254_MD5.png]]
 
 ### HTTP 连接拆除过程
 
@@ -57,9 +53,7 @@ HTTP 报文由请求行、首部、实体主体组成，它们之间由 CRLF（�
 
 **注意：实体包括首部 (也称为实体首部) 和实体主体，sp 即是空格 space**。
 
-![[assets/6ee3fc9d35c8b1441eb8a5657c5f971c_MD5.png]]
-
-在这里插入图片描述
+![[assets/ce91b8e9efa5b4f439ce624cfd32ce5e_MD5.png]]
 
 请求行和首部是由 ASCII 文本组成的，实体主体是可选的，可以为空也可以是任意二进制数据。
 
@@ -67,14 +61,20 @@ HTTP 报文由请求行、首部、实体主体组成，它们之间由 CRLF（�
 
 **请求报文格式**：
 
-```javascript
-<method> <request-URL> <version> <headers> <entity-body>
+```
+<method> <request-URL> <version>
+<headers>
+<entity-body>
+
 ```
 
 **响应报文格式**：
 
-```javascript
-<version> <status> <reason-phrase> <headers> <entity-body>
+```
+<version> <status> <reason-phrase>
+<headers>
+<entity-body>
+
 ```
 
 **一个请求或响应报文由以下字段组成**：
@@ -89,89 +89,36 @@ HTTP 报文由请求行、首部、实体主体组成，它们之间由 CRLF（�
 
 **一个 HTTP 请求示例**：
 
-```javascript
-GET /2.app.js HTTP/1.1 Host: 118.190.217.8:3389 Connection: keep-alive User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36 Accept: */* Referer: http://118.190.217.8:3389/ Accept-Encoding: gzip, deflate Accept-Language: zh-CN,zh;q=0.9
+```
+GET /2.app.js HTTP/1.1
+Host: 118.190.217.8:3389
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+Accept: *
+
 ```
 
 **一个 HTTP 响应示例**：
 
-```javascript
-HTTP/1.1 200 OK X-Powered-By: Express Accept-Ranges: bytes Cache-Control: public, max-age=0 Last-Modified: Sat, 07 Mar 2020 03:52:30 GMT ETag: W/"253e-170b31f7de7" Content-Type: application/javascript; charset=UTF-8 Vary: Accept-Encoding Content-Encoding: gzip Date: Fri, 15 May 2020 05:38:05 GMT Connection: keep-alive Transfer-Encoding: chunked
+```
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Sat, 07 Mar 2020 03:52:30 GMT
+ETag: W/"253e-170b31f7de7"
+Content-Type: application/javascript; charset=UTF-8
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Fri, 15 May 2020 05:38:05 GMT
+Connection: keep-alive
+Transfer-Encoding: chunked
+
 ```
 
 #### 方法
 
-|  |  |
-| --- | --- |
-|
-
-GET
-
- |
-
-从服务器获取一份文档
-
- |
-
-|
-
-HEAD
-
- |
-
-只从服务器获取文档的头部
-
- |
-
-|
-
-POST
-
- |
-
-向服务器发送需要处理的数据
-
- |
-
-|
-
-PUT
-
- |
-
-将请求的数据部分存储在服务器上
-
- |
-
-|
-
-TRACE
-
- |
-
-对可能经过代理服务器传送到服务器上去的报文进行追踪
-
- |
-
-|
-
-OPTIONS
-
- |
-
-决定可以在服务器上执行哪些方法
-
- |
-
-|
-
-DELETE
-
- |
-
-从服务器上删除一份文档
-
- |
+<table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><p>GET</p></td><td><p>从服务器获取一份文档</p></td></tr><tr><td><p>HEAD</p></td><td><p>只从服务器获取文档的头部</p></td></tr><tr><td><p>POST</p></td><td><p>向服务器发送需要处理的数据</p></td></tr><tr><td><p>PUT</p></td><td><p>将请求的数据部分存储在服务器上</p></td></tr><tr><td><p>TRACE</p></td><td><p>对可能经过代理服务器传送到服务器上去的报文进行追踪</p></td></tr><tr><td><p>OPTIONS</p></td><td><p>决定可以在服务器上执行哪些方法</p></td></tr><tr><td><p>DELETE</p></td><td><p>从服务器上删除一份文档</p></td></tr></tbody></table>
 
 ##### GET 和 HEAD
 
@@ -197,13 +144,11 @@ POST 方法通常用来向服务器发送表单数据。
 
 客户端发起一个请求时，这个请求可能要穿过路由器、防火墙、代理、网关等。每个中间节点都可能会修改原始的 HTTP 请求，TRACE 方法允许客户端在最终发起请求时，看看它变成了什么样子。
 
-TRACE 请求会在目的服务器端发起一个 " 环回 " 诊断。行程最后一站的服务器会弹回一条 TRACE 响应，并在响应主体中携带它收到的原始请求报文。 这样客户端就可以查看在所有中间 HTTP 应用程序组成的请求/响应链上，原始报文是否被毁坏或修改过。
+TRACE 请求会在目的服务器端发起一个 " 环回 " 诊断。行程最后一站的服务器会弹回一条 TRACE 响应，并在响应主体中携带它收到的原始请求报文。 这样客户端就可以查看在所有中间 HTTP 应用程序组成的请求 / 响应链上，原始报文是否被毁坏或修改过。
 
-![[assets/28f1916d42d601f8e69815b183883932_MD5.png]]
+![[assets/cd9f5eba21f9bf7787845cc20b87d501_MD5.png]]
 
-在这里插入图片描述
-
-TRACE 方法主要用于诊断，用于验证请求是否如愿穿过了请求/响应链。它也是一种工具，用来查看代理和其他应用程序对用户请求所产生的效果。 TRACE 请求中不能带有实体的主体部分。TRACE 响应的实体主体部分包含了响应服务器收到的请求的精确副本。
+TRACE 方法主要用于诊断，用于验证请求是否如愿穿过了请求 / 响应链。它也是一种工具，用来查看代理和其他应用程序对用户请求所产生的效果。 TRACE 请求中不能带有实体的主体部分。TRACE 响应的实体主体部分包含了响应服务器收到的请求的精确副本。
 
 ##### OPTIONS
 
@@ -215,77 +160,7 @@ DELETE 方法就是让服务器删除请求 URL 所指定的资源。
 
 #### 状态码
 
-|  |  |  |
-| --- | --- | --- |
-|
-
-100~199
-
- |
-
-100~101
-
- |
-
-信息提示
-
- |
-
-|
-
-200~299
-
- |
-
-200~206
-
- |
-
-成功
-
- |
-
-|
-
-300~399
-
- |
-
-300~305
-
- |
-
-重定向
-
- |
-
-|
-
-400~499
-
- |
-
-400~415
-
- |
-
-客户端错误
-
- |
-
-|
-
-500~599
-
- |
-
-500~505
-
- |
-
-服务器错误
-
- |
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><p>100~199</p></td><td><p>100~101</p></td><td><p>信息提示</p></td></tr><tr><td><p>200~299</p></td><td><p>200~206</p></td><td><p>成功</p></td></tr><tr><td><p>300~399</p></td><td><p>300~305</p></td><td><p>重定向</p></td></tr><tr><td><p>400~499</p></td><td><p>400~415</p></td><td><p>客户端错误</p></td></tr><tr><td><p>500~599</p></td><td><p>500~505</p></td><td><p>服务器错误</p></td></tr></tbody></table>
 
 ##### 300~399 重定向状态码
 
@@ -315,17 +190,13 @@ DELETE 方法就是让服务器删除请求 URL 所指定的资源。
 
 有些首部提供了与报文相关的最基本信息，它们被称为通用首部。以下是一些常见的通用首部：
 
-![[assets/71f8f8c2d1345e8361294a0710c43d2e_MD5.png]]
-
-在这里插入图片描述
+![[assets/8eca7a378b162985af48b4b3fd59f5d4_MD5.png]]
 
 ##### 请求首部
 
 请求首部是只在请求报文中有意义的首部，用于说明请求的详情。以下是一些常见的请求首部：
 
-![[assets/b89e14a371b1ff917383c7985fd50fb2_MD5.png]]
-
-在这里插入图片描述
+![[assets/6b91310549c65ba906559bfa02199efd_MD5.png]]
 
 ##### 响应首部
 
@@ -335,23 +206,21 @@ DELETE 方法就是让服务器删除请求 URL 所指定的资源。
 
 实体首部提供了有关实体及其内容的大量信息，从有关对象类型的信息，到能够对资源使用的各种有效的请求方法。 例如**内容首部**，提供了与实体内容有关的特定信息，说明了其类型、尺寸以及处理它所需的其他有用信息。 另外，通用的缓存首部说明了如何或什么时候进行缓存。**实体的缓存首部**提供了与被缓存实体有关的信息。
 
-![[assets/b21100929a4c7fecc15288be64c93141_MD5.png]]
-
-在这里插入图片描述
+![[assets/c5ca9fa5874bf367587aa3f84b403fcf_MD5.png]]
 
 ### 性能优化
 
-#### 1\. 减少 HTTP 请求
+#### 1. 减少 HTTP 请求
 
 每发起一个 HTTP 请求，都得经历三次握手建立 TCP 连接，如果连接只用来交换少量数据，这个过程就会严重降低 HTTP 性能。所以我们可以将多个小文件合成一个大文件，从而减少 HTTP 请求次数。
 
 其实由于持久连接（重用 TCP 连接，以消除连接及关闭时延；HTTP/1.1 默认开启持久连接）的存在，每个新请求不一定都需要建立一个新的 TCP 连接。但是，浏览器处理完一个 HTTP 请求才能发起下一个，所以在 TCP 连接数没达到浏览器规定的上限时，还是会建立新的 TCP 连接。从这点来看，减少 HTTP 请求仍然是有必要的。
 
-#### 2\. 静态资源使用 CDN
+#### 2. 静态资源使用 CDN
 
 [内容分发网络](https://cloud.tencent.com/product/cdn?from_column=20065&from=20065)（CDN）是一组分布在多个不同地理位置的 Web 服务器。我们都知道，当服务器离用户越远时，延迟越高。CDN 就是为了解决这一问题，在多个位置部署服务器，让用户离服务器更近，从而缩短请求时间。
 
-#### 3\. 善用缓存
+#### 3. 善用缓存
 
 为了避免用户每次访问网站都得请求文件，我们可以通过添加 Expires 头来控制这一行为。Expires 设置了一个时间，只要在这个时间之前，浏览器都不会请求文件，而是直接使用缓存。
 
@@ -359,13 +228,13 @@ DELETE 方法就是让服务器删除请求 URL 所指定的资源。
 
 可以通过更新页面中引用的资源链接地址，让浏览器主动放弃缓存，加载新资源。
 
-具体做法是把资源地址 URL 的修改与文件内容关联起来，也就是说，只有文件内容变化，才会导致相应 URL 的变更，从而实现文件级别的精确缓存控制。什么东西与文件内容相关呢？我们会很自然的联想到利用 [数据摘要要算法](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E6%25B6%2588%25E6%2581%25AF%25E6%2591%2598%25E8%25A6%2581%25E7%25AE%2597%25E6%25B3%2595%2F3286770%3Ffromtitle%3D%25E6%2591%2598%25E8%25A6%2581%25E7%25AE%2597%25E6%25B3%2595%26fromid%3D12011257&source=article&objectId=1707472) 对文件求摘要信息，摘要信息与文件内容一一对应，就有了一种可以精确到单个文件粒度的缓存控制依据了。
+具体做法是把资源地址 URL 的修改与文件内容关联起来，也就是说，只有文件内容变化，才会导致相应 URL 的变更，从而实现文件级别的精确缓存控制。什么东西与文件内容相关呢？我们会很自然的联想到利用 [数据摘要要算法](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E6%25B6%2588%25E6%2581%25AF%25E6%2591%2598%25E8%25A6%2581%25E7%25AE%2597%25E6%25B3%2595%2F3286770%3Ffromtitle%3D%25E6%2591%2598%25E8%25A6%2581%25E7%25AE%2597%25E6%25B3%2595%26fromid%3D12011257&objectId=1707472&objectType=1) 对文件求摘要信息，摘要信息与文件内容一一对应，就有了一种可以精确到单个文件粒度的缓存控制依据了。
 
 参考资料：
 
-- [张云龙--大公司里怎样开发和部署前端代码？](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F20790576%2Fanswer%2F32602154&source=article&objectId=1707472)
+- [张云龙 -- 大公司里怎样开发和部署前端代码？](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.zhihu.com%2Fquestion%2F20790576%2Fanswer%2F32602154&objectId=1707472&objectType=1)
 
-#### 4\. 压缩文件
+#### 4. 压缩文件
 
 压缩文件可以减少文件下载时间，让用户体验性更好。
 
@@ -373,7 +242,7 @@ gzip 是目前最流行和最有效的压缩方法。可以通过向 HTTP 请求
 
 举个例子，我用 Vue 开发的项目构建后生成的 app.js 文件大小为 1.4MB，使用 gzip 压缩后只有 573KB，体积减少了将近 60%。
 
-#### 5\. 域名拆分
+#### 5. 域名拆分
 
 由于浏览器对同一域名有并发 TCP 连接数量的限制，所以将网页的资源分配到不同的域名下，可以突破浏览器的限制，从而建立更多的 TCP 连接。
 
@@ -381,11 +250,9 @@ gzip 是目前最流行和最有效的压缩方法。可以通过向 HTTP 请求
 
 HTTPS 是最流行的 HTTP 安全形式，由网景公司首创，所有主要的浏览器和服务器都支持此协议。 使用 HTTPS 时，所有的 HTTP 请求和响应数据在发送之前，都要进行加密。加密可以使用 SSL 或 TLS。
 
-![[assets/5f1ac8ebdb4f3ec13c15b43c2b5b1752_MD5.png]]
+![[assets/13d3f102aebea57817a23a9c647b1e3c_MD5.png]]
 
-在这里插入图片描述
-
-SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的发送/接收数据流程不变，这就很好地兼容了老的 HTTP 协议。由于 SSL/TLS 差别不大，下面统一使用 SSL。
+SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的发送 / 接收数据流程不变，这就很好地兼容了老的 HTTP 协议。由于 SSL/TLS 差别不大，下面统一使用 SSL。
 
 要想了解 HTTPS 为何安全，还得继续了解一下这些概念：**加密算法**、**摘要算法**、**数字签名**和**数字证书**。
 
@@ -406,9 +273,7 @@ SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的
 1. **密钥对产生器**产生出接收者 B 的一对密钥，即加密密钥 PK 和解密密钥 SK。
 2. 发送者 A 用 B 的公钥 PK 作为加密密钥来加密信息，B 接收后用解密密钥 SK 解密。
 
-![[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-uWP5p7So-1589532545350)(../imgs/is3.png)]](<https://ask.qcloudimg.com/http-save/yehe-7746675/is9zbek2e2.png>)
-
-\[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传 (img-uWP5p7So-1589532545350)(../imgs/is3.png)\]
+![[assets/09c234879fb6c9f1de91cb3538c3418b_MD5.png]]
 
 使用对称密钥时，由于双方使用同样的密钥，因此在通信信道上可以进行一对一的双向保密通信，双方都可以用同一个密钥加密解密。
 
@@ -429,15 +294,11 @@ SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的
 
 数字签名通常是用非对称公开密钥技术产生的。
 
-![[assets/cac1e0698b226190b1472ec07a3bce79_MD5.png]]
-
-在这里插入图片描述
+![[assets/c3dff55d6083966a9ec2c2010575b4df_MD5.png]]
 
 看上图，任何人都能用 A 的公钥 PK 对密文进行 E 运算后得到 A 发送的明文。可见这种通信并非为了保密，而是为了进行签名和核实签名，即确认此信息是 A 发送的。 但上述过程仅对报文进行了签名，对报文 X 本身却未保密，所以要采用下图的方法，同时实现秘密通信和数字签名。
 
-![[assets/5421c2d077961df2b445f85157fdc4f2_MD5.png]]
-
-在这里插入图片描述
+![[assets/9ebc7cf5365d8c435125e414c5a83fd6_MD5.png]]
 
 ### 数字证书
 
@@ -461,9 +322,7 @@ SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的
 1. 用摘要算法对数字证书的内容计算出摘要；
 2. 用数字证书的私钥对摘要进行加密得到数字签名。
 
-![[assets/435da32b521b78cf0d293b354733694f_MD5.png]]
-
-在这里插入图片描述
+![[assets/7f4da32e65fc102a590b3c4e7b237295_MD5.png]]
 
 浏览器收到证书时，会对签名颁发机构进行验证，如果颁发机构是个很有权威的公共签名机构，浏览器可能就知道其公开密钥了（浏览器会预装很多签名颁发机构的证书）。如果对签名颁发机构一无所知，浏览器通常会向用户显示一个对话框，看看他是否相信这个签名发布者。
 
@@ -471,21 +330,15 @@ SSL/TLS 协议作用在 HTTP 协议之下，对于上层应用来说，原来的
 
 这个过程是建立在被大家所认可的证书机构之上得到的公钥，所以这是一种安全的方式。
 
-![[assets/d2f4e869d2ed91cd4f8085f6b7e2574f_MD5.png]]
-
-在这里插入图片描述
+![[assets/c1dbabba8cd020d8bcec0240eae461f4_MD5.png]]
 
 ### HTTPS 连接建立过程
 
 HTTPS 连接建立过程和 HTTP 差不多，区别在于 HTTP（默认端口 80） 请求只要在 TCP 连接建立后就可以发起，而 HTTPS（默认端口 443） 在 TCP 连接建立后，还需要经历 SSL 协议握手，成功后才能发起请求。
 
-![[assets/853b66c48bdac63ec8715a054e87a38b_MD5.png]]
+![[assets/0b35b2c0cefc9a13cb354be998f165e5_MD5.png]]
 
-在这里插入图片描述
-
-![[assets/10427cebc32d25fecd56dff3f5d14223_MD5.png]]
-
-在这里插入图片描述
+![[assets/4a992f5683342e6c42cb3b911d47fad3_MD5.png]]
 
 ## HTTP/2
 
@@ -501,19 +354,19 @@ HTTP/2 是 HTTP/1.x 的扩展，而非替代。所以 HTTP 的语义不变，提
 
 ### HTTP/1.1 的问题
 
-#### 1\. 队头阻塞
+#### 1. 队头阻塞
 
 在 HTTP 请求应答过程中，如果出现了某种情况，导致响应一直未能完成，那后面所有的请求就会一直阻塞着，这种情况叫队头阻塞。
 
-#### 2\. 低效的 TCP 利用
+#### 2. 低效的 TCP 利用
 
-由于 [TCP 慢启动机制](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E6%2585%25A2%25E5%2590%25AF%25E5%258A%25A8%2F8242395&source=article&objectId=1707472)，导致每个 TCP 连接在一开始的时候传输速率都不高，在处理多个请求后，才会慢慢达到 " 合适 " 的速率。对于请求数据量很小的 HTTP 请求来说，这种情况就是种灾难。
+由于 [TCP 慢启动机制](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E6%2585%25A2%25E5%2590%25AF%25E5%258A%25A8%2F8242395&objectId=1707472&objectType=1)，导致每个 TCP 连接在一开始的时候传输速率都不高，在处理多个请求后，才会慢慢达到 " 合适 " 的速率。对于请求数据量很小的 HTTP 请求来说，这种情况就是种灾难。
 
-#### 3\. 臃肿的消息首部
+#### 3. 臃肿的消息首部
 
 HTTP/1.1 的首部无法压缩，再加上 cookie 的存在，经常会出现首部大小比请求数据大小还大的情况。
 
-#### 4\. 受限的优先级设置
+#### 4. 受限的优先级设置
 
 HTTP/1.1 无法为重要的资源指定优先级，每个 HTTP 请求都是一视同仁。
 
@@ -532,247 +385,30 @@ HTTP/2 是基于帧的协议。采用分帧是为了将重要信息封装起来�
 
 HTTP/2 有了帧，处理协议的程序就能预先知道会收到什么，并且 HTTP/2 有表示帧长度的字段。
 
-![[assets/b89656bd8a2103f88b845dad32c5d0f1_MD5.png]]
-
-在这里插入图片描述
+![[assets/a41e2859c8989d166841a86c37ba8d23_MD5.png]]
 
 #### 帧结构
 
-```javascript
-+-----------------------------------------------+ | Length (24) | +---------------+---------------+---------------+ | Type (8) | Flags (8) | +-+-------------+---------------+-------------------------------+ |R| Stream Identifier (31) | +=+=============================================================+ | Frame Payload (0...) ... +---------------------------------------------------------------+
+```
+ +-----------------------------------------------+
+ |                 Length (24)                   |
+ +---------------+---------------+---------------+
+ |   Type (8)    |   Flags (8)   |
+ +-+-------------+---------------+-------------------------------+
+ |R|                 Stream Identifier (31)                      |
+ +=+=============================================================+
+ |                   Frame Payload (0...)                      ...
+ +---------------------------------------------------------------+
+
 ```
 
-|  |  |  |
-| --- | --- | --- |
-|
-
-Length
-
- |
-
-3 字节
-
- |
-
-表示帧负载的长度，取值范围为 （2 的 14 次方）至 （2 的 24 次方 - 1）。（2 的 14 次方） 16384 字节是默认的最大帧大小，如果需要更大的帧，必须在 SETTINGS 帧中设置
-
- |
-
-|
-
-Type
-
- |
-
-1 字节
-
- |
-
-当前帧类型（见下表）
-
- |
-
-|
-
-Flags
-
- |
-
-1 字节
-
- |
-
-具体帧类型的标识
-
- |
-
-|
-
-R
-
- |
-
-1 位
-
- |
-
-保留位，不要设置，否则可能会带来严重的后果
-
- |
-
-|
-
-Stream Identifier
-
- |
-
-31 位
-
- |
-
-每个流的唯一 ID
-
- |
-
-|
-
-Frame Payload
-
- |
-
-长度可变
-
- |
-
-真实的帧内容，长度是在 Length 字段中设置的
-
- |
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><p>Length</p></td><td><p>3 字节</p></td><td><p>表示帧负载的长度，取值范围为 （2 的 14 次方）至 （2 的 24 次方 - 1）。（2 的 14 次方） 16384 字节是默认的最大帧大小，如果需要更大的帧，必须在 SETTINGS 帧中设置</p></td></tr><tr><td><p>Type</p></td><td><p>1 字节</p></td><td><p>当前帧类型（见下表）</p></td></tr><tr><td><p>Flags</p></td><td><p>1 字节</p></td><td><p>具体帧类型的标识</p></td></tr><tr><td><p>R</p></td><td><p>1 位</p></td><td><p>保留位，不要设置，否则可能会带来严重的后果</p></td></tr><tr><td><p>Stream Identifier</p></td><td><p>31 位</p></td><td><p>每个流的唯一 ID</p></td></tr><tr><td><p>Frame Payload</p></td><td><p>长度可变</p></td><td><p>真实的帧内容，长度是在 Length 字段中设置的</p></td></tr></tbody></table>
 
 由于 HTTP/2 是分帧的，请求和响应都可以多路复用，有助于解决类似类似队头阻塞的问题。
 
 #### 帧类型
 
-|  |  |  |
-| --- | --- | --- |
-|
-
-DATA
-
- |
-
-0x0
-
- |
-
-传输流的核心内容
-
- |
-
-|
-
-HEADERS
-
- |
-
-0x1
-
- |
-
-包含 HTTP 首部，和可选的优先级参数
-
- |
-
-|
-
-PRIORITY
-
- |
-
-0x2
-
- |
-
-指示或更改流的优先级和依赖
-
- |
-
-|
-
-RST\_STREAM
-
- |
-
-0x3
-
- |
-
-允许一端停止流（通常由于错误导致的）
-
- |
-
-|
-
-SETTINGS
-
- |
-
-0x4
-
- |
-
-协商连接级参数
-
- |
-
-|
-
-PUSH\_PROMISE
-
- |
-
-0x5
-
- |
-
-提示客户端，服务器要推送些东西
-
- |
-
-|
-
-PING
-
- |
-
-0x6
-
- |
-
-测试连接可用性和往返时延（RTT）
-
- |
-
-|
-
-GOAWAY
-
- |
-
-0x7
-
- |
-
-告诉另一端，当前的端已结束
-
- |
-
-|
-
-WINDOW\_UPDATE
-
- |
-
-0x8
-
- |
-
-协商一端将要接收多少字节（用于流量控制）
-
- |
-
-|
-
-CONTINUATION
-
- |
-
-0x9
-
- |
-
-用以扩展 HEADERS 模块
-
- |
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><p>DATA</p></td><td><p>0x0</p></td><td><p>传输流的核心内容</p></td></tr><tr><td><p>HEADERS</p></td><td><p>0x1</p></td><td><p>包含 HTTP 首部，和可选的优先级参数</p></td></tr><tr><td><p>PRIORITY</p></td><td><p>0x2</p></td><td><p>指示或更改流的优先级和依赖</p></td></tr><tr><td><p>RST_STREAM</p></td><td><p>0x3</p></td><td><p>允许一端停止流（通常由于错误导致的）</p></td></tr><tr><td><p>SETTINGS</p></td><td><p>0x4</p></td><td><p>协商连接级参数</p></td></tr><tr><td><p>PUSH_PROMISE</p></td><td><p>0x5</p></td><td><p>提示客户端，服务器要推送些东西</p></td></tr><tr><td><p>PING</p></td><td><p>0x6</p></td><td><p>测试连接可用性和往返时延（RTT）</p></td></tr><tr><td><p>GOAWAY</p></td><td><p>0x7</p></td><td><p>告诉另一端，当前的端已结束</p></td></tr><tr><td><p>WINDOW_UPDATE</p></td><td><p>0x8</p></td><td><p>协商一端将要接收多少字节（用于流量控制）</p></td></tr><tr><td><p>CONTINUATION</p></td><td><p>0x9</p></td><td><p>用以扩展 HEADERS 模块</p></td></tr></tbody></table>
 
 ### 多路复用
 
@@ -788,9 +424,7 @@ CONTINUATION
 - 消除不必要的延迟，从而减少页面加载的时间；
 - 不必再为绕过 HTTP 1.x 限制而多做很多工作；
 
-![[assets/97272821545425ef31a488d89bb1b557_MD5.png]]
-
-在这里插入图片描述
+![[assets/c00e36431867d9cf42ebacd07c8826ca_MD5.png]]
 
 ### 流
 
@@ -804,9 +438,7 @@ HTTP 消息泛指 HTTP 请求或响应，消息由一或多个帧组成，这些
 
 一个消息至少由 HEADERS 帧（它初始化流）组成，并且可以另外包含 CONTINUATION 和 DATA 帧，以及其他的 HEADERS 帧。
 
-![[assets/792a6dd897c73aa2378f7133e6bc5c7d_MD5.png]]
-
-在这里插入图片描述
+![[assets/0bd7f8e51e7f05d98c8e0fbcb3bcebe2_MD5.png]]
 
 HTTP/1.1 的请求和响应部分都分成消息首部和消息体两部分；HTTP/2 的请求和响应分成 HEADERS 帧和 DATA 帧。
 
@@ -823,8 +455,8 @@ HTTP/1.1 的请求和响应部分都分成消息首部和消息体两部分；HT
 为解决这个问题，HTTP/2 为数据流和连接的流量控制提供了一个简单的机制：
 
 - 流量控制基于每一跳进行，而非端到端的控制；
-- 流量控制基于 WINDOW\_UPDATE 帧进行，即接收方广播自己准备接收某个数据流的多少字节，以及对整个连接要接收多少字节；
-- 流量控制窗口大小通过 WINDOW\_UPDATE 帧更新，这个字段指定了流 ID 和窗口大小递增值；
+- 流量控制基于 WINDOW_UPDATE 帧进行，即接收方广播自己准备接收某个数据流的多少字节，以及对整个连接要接收多少字节；
+- 流量控制窗口大小通过 WINDOW_UPDATE 帧更新，这个字段指定了流 ID 和窗口大小递增值；
 - 流量控制有方向性，即接收方可能根据自己的情况为每个流乃至整个连接设置任意窗口大小；
 - 流量控制可以由接收方禁用，包括针对个别的流和针对整个连接。
 
@@ -834,9 +466,7 @@ HTTP/2 连接建立之后，客户端与服务器交换 SETTINGS 帧，目的是
 
 HTTP/2 新增的一个强大的新功能，就是服务器可以对一个客户端请求发送多个响应。换句话说，除了对最初请求的响应外，服务器还可以额外向客户端推送资源，而无需客户端明确地请求。
 
-![[assets/eef9ca4019e4af354b2d70b0b911aaca_MD5.png]]
-
-在这里插入图片描述
+![[assets/ec9ceec0740e53aef4f5c94df7b5a3e1_MD5.png]]
 
 为什么需要这样一个机制呢？通常的 Web 应用都由几十个资源组成，客户端需要分析服务器提供的文档才能逐个找到它们。那为什么不让服务器提前就把这些资源推送给客户端，从而减少额外的时间延迟呢？服务器已经知道客户端下一步要请求什么资源了，这时候服务器推送即可派上用场。
 
@@ -848,12 +478,22 @@ HTTP/1.1 存在的一个问题就是臃肿的首部，HTTP/2 对这一问题进�
 
 例如有如下两个请求：
 
-```javascript
-:authority: unpkg.zhimg.com :method: GET :path: /za-js-sdk@2.16.0/dist/zap.js :scheme: https accept: */* accept-encoding: gzip, deflate, br accept-language: zh-CN,zh;q=0.9 cache-control: no-cache pragma: no-cache referer: https://www.zhihu.com/ sec-fetch-dest: script sec-fetch-mode: no-cors sec-fetch-site: cross-site user-agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+```
+:authority: unpkg.zhimg.com
+:method: GET
+:path: /za-js-sdk@2.16.0/dist/zap.js
+:scheme: https
+accept: *
+
 ```
 
-```javascript
-:authority: zz.bdstatic.com :method: GET :path: /linksubmit/push.js :scheme: https accept: */* accept-encoding: gzip, deflate, br accept-language: zh-CN,zh;q=0.9 cache-control: no-cache pragma: no-cache referer: https://www.zhihu.com/ sec-fetch-dest: script sec-fetch-mode: no-cors sec-fetch-site: cross-site user-agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+```
+:authority: zz.bdstatic.com
+:method: GET
+:path: /linksubmit/push.js
+:scheme: https
+accept: *
+
 ```
 
 从上面两个请求可以看出来，有很多数据都是重复的。如果可以把相同的首部存储起来，仅发送它们之间不同的部分，就可以节省不少的流量，加快请求的时间。
@@ -862,55 +502,16 @@ HTTP/2 在客户端和服务器端使用 " 首部表 " 来跟踪和存储之前�
 
 下面再来看一个简化的例子，假设客户端按顺序发送如下请求首部：
 
-```javascript
-Header1:foo Header2:bar Header3:bat
+```
+Header1:foo
+Header2:bar
+Header3:bat
+
 ```
 
 当客户端发送请求时，它会根据首部值创建一张表：
 
-|  |  |  |
-| --- | --- | --- |
-|
-
-62
-
- |
-
-Header1
-
- |
-
-foo
-
- |
-
-|
-
-63
-
- |
-
-Header2
-
- |
-
-bar
-
- |
-
-|
-
-64
-
- |
-
-Header3
-
- |
-
-bat
-
- |
+<table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><p>62</p></td><td><p>Header1</p></td><td><p>foo</p></td></tr><tr><td><p>63</p></td><td><p>Header2</p></td><td><p>bar</p></td></tr><tr><td><p>64</p></td><td><p>Header3</p></td><td><p>bat</p></td></tr></tbody></table>
 
 如果服务器收到了请求，它会照样创建一张表。 当客户端发送下一个请求的时候，如果首部相同，它可以直接发送这样的首部块：
 
@@ -939,9 +540,7 @@ bat
 3. SYN 标志位，用于连接建立，SYN 为 1 时，表明这是一个请求建立连接报文。
 4. FIN 标志位，用于连接拆除，FIN 为 1 时，表明发送方数据已发送完毕，并要求释放连接。
 
-![[assets/ca2290091da3ce8033e2523a9bfcfb69_MD5.png]]
-
-在这里插入图片描述
+![[assets/18fb6b3ed408c2f4718a41af7a828761_MD5.png]]
 
 ### TCP 三次握手建立连接
 
@@ -953,9 +552,7 @@ TCP 标准规定，ACK 报文段可以携带数据，但不携带数据就不用
 
 下图是一个具体的示例：
 
-![[assets/fe1575a7f9b358d496c8c51acbc937db_MD5.png]]
-
-在这里插入图片描述
+![[assets/efbca4982a1ae939694fff520ccc8e3e_MD5.png]]
 
 ### TCP 四次挥手拆除连接
 
@@ -968,8 +565,11 @@ FIN 报文段即使不携带数据，也要消耗序号。
 
 ## 参考资料
 
-- [HTTP权威指南](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F10746113%2F&source=article&objectId=1707472)
-- [HTTP/2基础教程](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F27665112%2F&source=article&objectId=1707472)
-- [SSL/TLS 握手过程详解](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.jianshu.com%2Fp%2F7158568e4867&source=article&objectId=1707472)
-- [互联网安全之数字签名、数字证书与PKI系统](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.jianshu.com%2Fp%2Fffe8c203a471&source=article&objectId=1707472)
-- [计算机网络（第7版）](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F26960678%2F&source=article&objectId=1707472)
+- [HTTP 权威指南](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F10746113%2F&objectId=1707472&objectType=1)
+- [HTTP/2 基础教程](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F27665112%2F&objectId=1707472&objectType=1)
+- [SSL/TLS 握手过程详解](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.jianshu.com%2Fp%2F7158568e4867&objectId=1707472&objectType=1)
+- [互联网安全之数字签名、数字证书与 PKI 系统](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fwww.jianshu.com%2Fp%2Fffe8c203a471&objectId=1707472&objectType=1)
+- [计算机网络（第 7 版）](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F26960678%2F&objectId=1707472&objectType=1)
+- [Web 性能权威指南](https://cloud.tencent.com/developer/tools/blog-entry?target=https%3A%2F%2Fbook.douban.com%2Fsubject%2F25856314%2F&objectId=1707472&objectType=1)
+
+本文参与 [腾讯云自媒体同步曝光计划](https://cloud.tencent.com/developer/support-plan)，分享自作者个人站点 / 博客。
